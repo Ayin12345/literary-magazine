@@ -31,11 +31,7 @@ export default function AboutUs() {
 
       {/* ── Mission Statement ── */}
       <div className="about-mission">
-        <p>
-          [Mission statement placeholder — describe the magazine's purpose, values, and commitment
-          to amplifying student creative voices. This section should convey the spirit and editorial
-          philosophy of the publication in two to four sentences.]
-        </p>
+        <p>[Mission statement.]</p>
       </div>
 
       {/* ── Our Team ── */}

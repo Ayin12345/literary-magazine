@@ -26,10 +26,7 @@ export default function GoFan() {
 
       {/* ── Intro (centered) ── */}
       <div className="gofan-intro">
-        <p>
-          [Introductory paragraph explaining how readers can purchase a physical copy of the
-          magazine — via the GoFan platform or by downloading and submitting a print order form.]
-        </p>
+        <p>[Purchase a copy via GoFan or download the order form.]</p>
       </div>
 
       {/* ── Single CTA Card ── */}

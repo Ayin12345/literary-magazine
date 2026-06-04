@@ -2,31 +2,11 @@ import { useEffect } from 'react';
 import '../styles/Achievements.css';
 
 const timelineEntries = [
-  {
-    year: '[Year]',
-    title: '[Achievement Name]',
-    desc: '[Brief description of the award, recognition, or milestone and what it meant for the magazine.]',
-  },
-  {
-    year: '[Year]',
-    title: '[Achievement Name]',
-    desc: '[Brief description of the award, recognition, or milestone and what it meant for the magazine.]',
-  },
-  {
-    year: '[Year]',
-    title: '[Achievement Name]',
-    desc: '[Brief description of the award, recognition, or milestone and what it meant for the magazine.]',
-  },
-  {
-    year: '[Year]',
-    title: '[Achievement Name]',
-    desc: '[Brief description of the award, recognition, or milestone and what it meant for the magazine.]',
-  },
-  {
-    year: '[Year]',
-    title: '[Achievement Name]',
-    desc: '[Brief description of the award, recognition, or milestone and what it meant for the magazine.]',
-  },
+  { year: '[Year]', title: '[Achievement Name]', desc: '[Award or milestone.]' },
+  { year: '[Year]', title: '[Achievement Name]', desc: '[Award or milestone.]' },
+  { year: '[Year]', title: '[Achievement Name]', desc: '[Award or milestone.]' },
+  { year: '[Year]', title: '[Achievement Name]', desc: '[Award or milestone.]' },
+  { year: '[Year]', title: '[Achievement Name]', desc: '[Award or milestone.]' },
 ];
 
 const publicationCards = [
@@ -58,10 +38,7 @@ export default function Achievements() {
 
       {/* ── Intro ── */}
       <div className="achievements-intro">
-        <p>
-          [Introductory paragraph about the magazine's history of recognition, awards received,
-          and the broader impact the publication has had on the school community and beyond.]
-        </p>
+        <p>[Awards and recognition received by the magazine.]</p>
       </div>
 
       {/* ── Timeline ── */}

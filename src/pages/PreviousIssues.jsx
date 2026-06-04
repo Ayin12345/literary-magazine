@@ -40,15 +40,12 @@ export default function PreviousIssues() {
       {/* ── Upload Notice ── */}
       <div className="issues-notice">
         <span className="issues-notice__icon">○</span>
-        <p>[PDFs will be linked here once uploaded. "View PDF" buttons are disabled until files are available.]</p>
+        <p>[PDFs will be linked once uploaded.]</p>
       </div>
 
       {/* ── Intro ── */}
       <div className="issues-intro">
-        <p>
-          [Browse the archive of past issues below. Each volume represents one publication cycle
-          and showcases the creative work of our student contributors.]
-        </p>
+        <p>[Past volumes of the magazine.]</p>
       </div>
 
       {/* ── Issues Grid ── */}

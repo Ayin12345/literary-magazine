@@ -4,41 +4,46 @@ import '../styles/Deadlines.css';
 // Status: 'passed' | 'upcoming' | 'today'
 const deadlineEntries = [
   {
-    date: '[Month DD, YYYY]',
-    title: '[Deadline / Event Name]',
-    desc: '[Brief description of what this deadline marks — e.g., first submissions window closes.]',
+    mmdd: '[MM/DD]',
+    yyyy: '[YYYY]',
+    title: '[Deadline Name]',
+    desc: '[What this date marks.]',
     status: 'passed',
   },
   {
-    date: '[Month DD, YYYY]',
-    title: '[Deadline / Event Name]',
-    desc: '[Brief description of what this deadline marks — e.g., editorial review period begins.]',
+    mmdd: '[MM/DD]',
+    yyyy: '[YYYY]',
+    title: '[Deadline Name]',
+    desc: '[What this date marks.]',
     status: 'passed',
   },
   {
-    date: '[Month DD, YYYY]',
-    title: '[Deadline / Event Name]',
-    desc: '[Brief description of what this deadline marks — e.g., final submission deadline.]',
+    mmdd: '[MM/DD]',
+    yyyy: '[YYYY]',
+    title: '[Deadline Name]',
+    desc: '[What this date marks.]',
     status: 'today',
   },
   {
-    date: '[Month DD, YYYY]',
-    title: '[Deadline / Event Name]',
-    desc: '[Brief description of what this deadline marks — e.g., author notifications sent out.]',
+    mmdd: '[MM/DD]',
+    yyyy: '[YYYY]',
+    title: '[Deadline Name]',
+    desc: '[What this date marks.]',
     status: 'upcoming',
   },
   {
-    date: '[Month DD, YYYY]',
-    title: '[Deadline / Event Name]',
-    desc: '[Brief description of what this deadline marks — e.g., issue publication date.]',
+    mmdd: '[MM/DD]',
+    yyyy: '[YYYY]',
+    title: '[Deadline Name]',
+    desc: '[What this date marks.]',
     status: 'upcoming',
   },
 ];
 
 const reminders = [
-  '[Reminder 1 — e.g., Late submissions will not be accepted under any circumstances.]',
-  '[Reminder 2 — e.g., All submitters will receive a confirmation email within 48 hours.]',
-  '[Reminder 3 — e.g., Check the Submissions page for formatting requirements before submitting.]',
+  '[Reminder 1]',
+  '[Reminder 2]',
+  '[Reminder 3]',
 ];
 
 const statusConfig = {
@@ -58,7 +63,7 @@ export default function Deadlines() {
 
       {/* ── Intro ── */}
       <div className="deadlines-intro">
-        <p>[Important dates for the current submission cycle. Check back regularly for updates.]</p>
+        <p>[Important dates for the current cycle.]</p>
       </div>
 
       {/* ── Status Legend ── */}
@@ -80,7 +85,8 @@ export default function Deadlines() {
             <div className="deadlines-card" key={i}>
               <div className="deadlines-card__date">
                 <div className="deadlines-card__date-inner">
-                  <span>{entry.date}</span>
+                  <span className="date-mmdd">{entry.mmdd}</span>
+                  <span className="date-yyyy">{entry.yyyy}</span>
                 </div>
               </div>
               <div className="deadlines-card__content">

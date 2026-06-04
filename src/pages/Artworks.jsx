@@ -19,26 +19,11 @@ const artworkCards = [
 ];
 
 const formatRequirements = [
-  {
-    type: '[Poetry]',
-    requirements: '[Max length, line limit, formatting preferences, font/spacing guidelines.]',
-  },
-  {
-    type: '[Short Fiction]',
-    requirements: '[Word count range, paragraph formatting, dialogue conventions, file type.]',
-  },
-  {
-    type: '[Photography]',
-    requirements: '[Minimum resolution, accepted file formats (JPEG/PNG), color vs. B&W policy.]',
-  },
-  {
-    type: '[Visual Art]',
-    requirements: '[Accepted file formats, minimum resolution, original work requirement.]',
-  },
-  {
-    type: '[Essay]',
-    requirements: '[Word count limit, citation style, topic guidelines, formatting standards.]',
-  },
+  { type: '[Poetry]',       requirements: '[Length and format requirements.]' },
+  { type: '[Short Fiction]', requirements: '[Word count and file format.]' },
+  { type: '[Photography]',  requirements: '[Resolution and accepted formats.]' },
+  { type: '[Visual Art]',   requirements: '[File format and resolution.]' },
+  { type: '[Essay]',        requirements: '[Word count and citation style.]' },
 ];
 
 export default function Artworks() {

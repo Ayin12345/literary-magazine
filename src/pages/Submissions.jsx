@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import '../styles/Submissions.css';
 
 const requirements = [
-  '[Requirement 1 — e.g., All submissions must be original, unpublished work.]',
-  '[Requirement 2 — e.g., Poetry: no more than 3 poems per submission, max 60 lines each.]',
-  '[Requirement 3 — e.g., Prose: maximum 2,500 words per piece.]',
-  '[Requirement 4 — e.g., Visual art and photography: high-resolution JPEG or PNG files only.]',
-  '[Requirement 5 — e.g., Include your name, grade, and piece title in your submission form.]',
+  '[Requirement 1]',
+  '[Requirement 2]',
+  '[Requirement 3]',
+  '[Requirement 4]',
+  '[Requirement 5]',
 ];
 
 export default function Submissions() {
@@ -21,11 +21,7 @@ export default function Submissions() {
 
       {/* ── Intro ── */}
       <div className="submissions-intro">
-        <p>
-          [Brief description of what the magazine accepts and its submission philosophy —
-          e.g., the genres welcomed, the spirit of the call for work, and what makes a strong
-          submission. This should feel inviting and accessible to all student contributors.]
-        </p>
+        <p>[What the magazine accepts and how to submit.]</p>
       </div>
 
       {/* ── Submit CTA Card ── */}

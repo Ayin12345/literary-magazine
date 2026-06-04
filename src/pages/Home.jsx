@@ -5,19 +5,19 @@ import '../styles/Home.css';
 const features = [
   {
     heading: 'Submit Your Work',
-    text: '[Brief description of what kinds of creative work the magazine welcomes and why students should submit.]',
+    text: '[Poetry, fiction, art, and more.]',
     link: '/submissions',
     linkLabel: 'View Submissions →',
   },
   {
     heading: 'Meet the Team',
-    text: '[Brief description of the editorial staff, their dedication to showcasing student voices, and how to get involved.]',
+    text: '[Editorial staff and advisors.]',
     link: '/about',
     linkLabel: 'About Us →',
   },
   {
     heading: 'Past Issues',
-    text: '[Brief description of the magazine\'s archive, past volumes, and what readers can expect to find.]',
+    text: '[Browse the archive.]',
     link: '/previous-issues',
     linkLabel: 'Browse Issues →',
   },
@@ -34,7 +34,7 @@ export default function Home() {
       <section className="home-hero">
         <h1 className="home-hero__title">[Magazine Name]</h1>
         <p className="home-hero__tagline">
-          [Tagline or mission statement — e.g., "Celebrating student voices, one page at a time."]
+          [Tagline]
         </p>
         <Link to="/previous-issues" className="btn">
           Read Latest Issue
